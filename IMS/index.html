@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <ul class="sidebar">
+            <li onclick=hidebar()><a href="#">CLOSE</a></li>
+            <li><a href="#">CONTACT</a></li>
+            <li><a href="#">VENKY</a></li>
+            <li><a href="#">LOGIN</a></li>
+        </ul>
+        <ul>
+           
+            <li class="profile"><a href="#"> &#128508;</a></li>
+            <li class="hide"><a href="#">CONTACT</a></li>
+            <li class="hide"><a href="mailto:gurajavenkatesh1713@gmail.com">VENKY</a></li>
+            <li class="hide"><a href="#">LOGIN</a></li>
+            <li class="Mbar" onclick=showbar()><a href="#">MENU</a></li>
+        </ul>
+       
+        <script>
+            function showbar() {
+                document.querySelector(".sidebar").style.display = "flex";
+            }
+            function hidebar() {
+                document.querySelector(".sidebar").style.display = "none";
+
+            }
+        </script>
+     
+    </nav>
+    <div class="choclate">
+        <img src="choclate.jpg" alt="">
+    </div>
+    <div class="choclate-down">
+        <img src="choclate.jpg" alt="">
+    </div>
+    <div class="down">
+        <img src="down-image.png" alt="">
+    </div>
+</div>
+<div class="down">
+    <img src="side-image.png" alt="">
+</div>
+</body>
+</html>
